@@ -1,0 +1,539 @@
+
+.total-body {
+    background-color: #000;
+}
+
+.top-banner {
+    position: relative;
+    inset: 0;
+    z-index: 1;
+}
+
+.top-banner-image {
+    position: absolute;
+    top: 0;
+    left: -34%;
+    max-width: 156%;
+    min-height: 85%;
+    z-index: -1;
+}
+
+.top-banner-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-banner-title h1 {
+    margin: 0px;
+    font-size: 5rem;
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    background: -webkit-linear-gradient(108.46deg, #68AEFF 13.84%, #47FE85 78.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-section, .bottom-section {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.polygon-avalanche {
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    color: #ECF3EC;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+	padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.logo {
+    position: relative;
+    left: -31%;
+}
+
+div.button {
+    position: relative;
+    right: -27%;
+}
+
+div.logo:hover, div.button:hover {
+    opacity: 0.8;
+}
+
+a.button {
+    background: #01796F;
+    color: #ECF3EC;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.social-links-div {
+    padding-top: 15px;
+    padding-left: 55%;
+}
+
+.trading-button {
+    margin-top: 3rem;
+}
+
+a.trading-button {
+    background: #FFFFFF;
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 3.5em;
+    font-size: 1.2em;
+}
+
+a.trading-button:hover {
+    background: black;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 3.5em;
+    font-size: 1.2em;
+}
+
+.rectangle-image-section {
+    cursor: pointer;
+}
+
+.number-data {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.number-data h3 {
+    font-size: 2.5rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.number {
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    padding: 0 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.number p {
+    font-size: 1rem;
+    color: white;
+}
+
+.polygon-stats {
+    color: white;
+    padding-left: 88%;
+    font-size: 0.8rem;
+}
+
+.dex-trading {
+    color: #ECF3EC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2.15rem;
+    font-family: Inter,sans-serif;
+    color: white;
+}
+
+.divider-image {
+    max-width: 60%;
+    margin-top: 40px;
+}
+
+.left-reshaping-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-reshaping-title {
+    margin-bottom: 5rem;
+}
+
+.left-reshaping-title h6 {
+    font-size: 1.286rem;
+    margin: 30px 0;
+}
+
+.left-reshaping-title p {
+    margin: 0;
+    padding-left: 30px;
+}
+
+.docs-button-section a {
+    cursor: pointer;
+    padding: 15px 20px;
+    min-width: 64px;
+    font-family: Inter,sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    height: 3rem;
+    align-items: center;
+    line-height: 1.7142857142857142;
+    background: #010101;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #ECF3EC;
+}
+
+.docs-button-section a:hover {
+    background: #016058;
+    color: #FFFFFF;
+    border: 1px solid #01796F;
+}
+
+.Wall-of-Love, .Roadmap, .Community, .Protocols {
+    margin-top: 10rem;
+}
+
+.Wall-of-Love-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.Wall-of-Love-text, .Roadmap-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.Wall-of-Love-text h2, .Roadmap-text h2, .Community-text h2 {
+    margin-left: 0.5rem;
+}
+
+.arrow-icon-root {
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+h6.member-username {
+    background: -webkit-linear-gradient(108.46deg, #47fe85 13.84%, #68aeff 78.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.22rem;
+    margin: 5px;
+}
+
+.members-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.member-box_outer {
+    background: linear-gradient( 108.46deg, rgba(71, 254, 133, 0.2) 13.84%, rgba(104, 174, 255, 0.3) 78.03% );
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 230px;
+    padding: 1px;
+}
+
+.member-box {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 230px;
+    background-color: #000;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.one-social-links {
+    padding-left: 81%;
+}
+
+.member-box-root p {
+    color: #ECF3EC;
+    font-size: 0.9rem;
+}
+
+.member-box-root {
+    padding: 15px;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.spot {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.Roadmap-section {
+    display: flex;
+    justify-content: center;
+    color: rgba(236, 243, 236, 0.85);
+}
+
+.musical_note_xs1 {
+    position: absolute;
+    top: 1%;
+    left: -12%;
+}
+
+.Roadmap-container {
+    position: relative;
+}
+
+.Roadmap-text {
+    margin-bottom: 40px;
+}
+
+.Roadmap-timeline {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.Roadmap-section h4 {
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-size: 1.6667rem;
+    background: -webkit-linear-gradient(108.46deg, #47FE85 13.84%, #68AEFF 78.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Roadmap-section h6 {
+    margin: 0;
+    font-size: 1.286rem;
+}
+
+.Roadmap-line {
+    width: 16px;
+    height: 4px;
+    background-color: rgba(236, 243, 236, 0.85);
+}
+
+.Roadmap-title2, .Roadmap-title4, .Roadmap-title6 {
+    padding-top: 200px;
+}
+
+.Community {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.Community-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.musical_note_lg {
+    position: absolute;
+    top: 60%;
+    left: -6%;
+}
+
+.musical_note_sm {
+    position: absolute;
+    top: 95%;
+    left: 1%;
+}
+
+.community-section {
+    position: relative;
+}
+
+.threelines-img {
+    position: absolute;
+    top: -5%;
+    right: -30px;
+}
+
+.circle-img {
+    position: absolute;
+    bottom: -11%;
+    left: 2%;
+}
+
+.symphony-community {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    color: rgba(236, 243, 236, 0.65);
+}
+
+.black-board {
+    background: rgba(59, 59, 59, 0.15);
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    padding-left: 0.4rem;
+    color: white;
+}
+
+.Protocols {
+    text-align: center;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.Protocols-text {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 70px;
+}
+
+.Protocols-text h2 {
+    margin: 0 0.5rem;
+}
+
+.musical_note_xs2 {
+    position: absolute;
+    top: 35%;
+    left: -7%;
+}
+
+.Protocols_section_outer {
+    background: linear-gradient( 108.46deg, rgba(71, 254, 133, 0.2) 13.84%, rgba(104, 174, 255, 0.3) 78.03% );
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 1px;
+}
+
+.Protocols_section {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    background-color: #000;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.Protocols_section h5 {
+    background: -webkit-linear-gradient(108.46deg, #47FE85 13.84%, #68AEFF 78.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+.Protocols-line-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Protocols-line {
+    width: 70%;
+    height: 2px;
+    background: -webkit-linear-gradient(108.46deg, #47FE85 13.84%, #68AEFF 78.03%);
+    margin-left: 15px;
+}
+
+.first-logo, .second-logo, .third-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.company-logo {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.company-logo div {
+    padding: 0 0 15px 0;
+}
+
+.epns-sushi-traderjoe .sushi, .epns-sushi-traderjoe .traderjoe {
+    margin-left: 85px;
+}
+
+.crypto-logo {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
+    padding: 0 0 110px 0;
+}
+
+.crypto-logo div {
+    padding: 20px 0;
+}
+
+.crypto-logo p, h2 {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.footer {
+    background: #000;
+	color:#999;
+}
+
+.disclaimer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    line-height: 150%;
+    padding: 50px 0 10px 0;
+}
+
+.footer p {
+    color: rgb(168, 177, 189);
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgb(151, 188, 236);
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+}
